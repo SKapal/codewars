@@ -12,7 +12,7 @@ print(divisors(4))
 
 # Another Soltn
 
-def divisors(num):
+def divisors2(num):
     l = [a for a in range(2,num) if num%a == 0]
     if len(l) == 0:
         return str(num) + " is prime"
